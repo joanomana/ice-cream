@@ -1,11 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ice Cream</title>
-  </head>
-  <body>
-    <h1>Hola</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body class="bg-[#E96C7D]" style="background-image:url('src/storage/img/background.png');">
+    <header class="flex justify-between items-center  pt-11 px-[75px]">
+        <div class="">
+            <img src="src/storage/img/logo.png" alt="Logo">
+        </div>
+        <nav class="flex items-center gap-[54px]">
+            <li class="list-none"><a href="#" class="font-[Poppins-SemiBold] text-[#FFFFFF] text-[28px] no-underline">Home</a></li>
+            <li class="list-none"><a href="#" class="font-[Poppins-SemiBold] text-[#FFFFFF] text-[28px] no-underline">Know Us</a></li>
+            <li class="list-none"><a href="#" class="font-[Poppins-SemiBold] text-[#FFFFFF] text-[28px] no-underline">Close By</a></li>
+            <li class="list-none">
+                <a href="#">
+                    <img src="src/storage/img/search.png" alt="Search">
+                </a>
+            </li>
+        </nav>
+        <div>
+            <img src="src/storage/img/menu.png" alt="Menu">
+        </div>
+    </header>
+    <section class="flex justify-between items-center px-[75px] py-[100px]">
+      <div>
+        <h1 class="text-2xl text-white">Red Flower <br>Ice-cream</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua.</p>
+        <div class="py-5 flex gap-[20px]">
+          <button class="font-[Poppins-regular] text-1xl bg-transparent hover: text-white font-bold p-3 border w-40 rounded ">Order Now</button>
+          <button class="font-[Poppins-Regular] text-2xl bg-white/15 text-white px-4 py-2 rounded-lg w-50 rounded">Book Table</button>
+        </div>
+      </div>
+      <div>
+        <div class="card">Card</div>
+        <div class="menu">Menu</div>
+      </div>
+    </section>
+
+</body>
 </html>
