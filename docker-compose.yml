@@ -1,0 +1,12 @@
+services:
+  app:
+    image: node:latest
+    container_name: ice-cream
+    working_dir: /ice-cream
+    volumes:
+      - .:/ice-cream
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    command: ["sh", "-c", "rm -rf node_modules package-lock.json && npm install && npm run dev"]
