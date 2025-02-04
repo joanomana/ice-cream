@@ -2,6 +2,17 @@
 
 @font-face {
   font-family: "Poppins-SemiBold";
-  src: url("../storage/font/Poppins/Poppins-SemiBold.ttf");
+  src: url("../src/storage/font/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../src/storage/font/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../src/storage/font/Poppins/Poppins-Medium.ttf");
 }
 
+.review-card {
+  @apply w-[345px] h-[170px] bg-white border border-gray-300 rounded-lg p-4 shadow-md sticky top-0;
+}

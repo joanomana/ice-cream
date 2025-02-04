@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/index.css">
+    
 </head>
 <body class="bg-[#E96C7D]" style="background-image:url('src/storage/img/background.png');">
     <header class="flex justify-between items-center  pt-11 px-[75px]">
@@ -27,18 +28,74 @@
     </header>
     <section class="flex justify-between items-center px-[75px] py-[100px]">
       <div>
-        <h1 class="text-2xl text-white">Red Flower <br>Ice-cream</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua.</p>
+        <h1 class="text-8xl text-white font-[Poppins-SemiBold]">Red Flower <br>Ice-cream</h1>
+        <p class="text-white font-[Poppins-Medium]">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua.</p>
         <div class="py-5 flex gap-[20px]">
-          <button class="font-[Poppins-regular] text-1xl bg-transparent hover: text-white font-bold p-3 border w-40 rounded ">Order Now</button>
-          <button class="font-[Poppins-Regular] text-2xl bg-white/15 text-white px-4 py-2 rounded-lg w-50 rounded">Book Table</button>
+          <button class="font-[Poppins-regular] text-2xl bg-transparent hover: text-white font-bold p-3 border w-40 rounded hover:outline-none ">Order Now</button>
+          <button class="font-[Poppins-Regular] text-2xl bg-white/15 text-white px-4 py-2 rounded-lg w-50 rounded hover:outline-none">Book Table</button>
         </div>
       </div>
-      <div>
-        <div class="card">Card</div>
-        <div class="menu">Menu</div>
+      <!-- Contenedor principal -->
+      <div id="reviews" class="h-[185px] w-[500px] overflow-y-auto space-y-4 gap-5 ">
+        <!-- Tarjetas de reseñas -->
+        <div class="review-card">
+          <div class="flex gap-4 items-center">
+            <img src="src/storage/img/logo-user.png" class="w-12 h-12 object-contain">
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Uzi Nexus 1</h3>
+              <div class="flex gap-1">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+              </div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-700 mt-2">Indulge in frozen bliss with our irresistible ice cream delights!</p>
+        </div>
+        <div class="review-card">
+          <div class="flex gap-4 items-center">
+            <img src="src/storage/img/logo-user.png" class="w-12 h-12 object-contain">
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Uzi Nexus 2</h3>
+              <div class="flex gap-1">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+              </div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-700 mt-2">Indulge in frozen bliss with our irresistible ice cream delights!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="flex gap-4 items-center">
+            <img src="src/storage/img/logo-user.png" class="w-12 h-12 object-contain">
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Uzi Nexus 3</h3>
+              <div class="flex gap-1">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+              </div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-700 mt-2">Indulge in frozen bliss with our irresistible ice cream delights!</p>
+        </div>
       </div>
     </section>
+    
+    
 
 </body>
+
 </html>
+
+
+
+
