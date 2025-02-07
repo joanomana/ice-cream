@@ -32,7 +32,7 @@
         <p class="text-white font-[Poppins-Medium]">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua.</p>
         <div class="py-5 flex gap-[20px]">
           <button class="font-[Poppins-regular] text-2xl bg-transparent hover: text-white font-bold p-3 border w-40 rounded hover:outline-none ">Order Now</button>
-          <button class="font-[Poppins-Regular] text-2xl bg-white/15 text-white px-4 py-2 rounded-lg w-50 rounded hover:outline-none">Book Table</button>
+          <button class="font-[Poppins-Regular] text-2xl bg-white/15 text-white px-4 py-2 rounded-lg w-50 hover:outline-none ">Book Table</button>
         </div>
       </div>
       <!-- Contenedor principal -->
@@ -73,7 +73,7 @@
 
         <div class="review-card">
           <div class="flex gap-4 items-center">
-            <img src="src/storage/img/logo-user.png" class="w-12 h-12 object-contain">
+            <img src="src/storage/img/profile.svg" class="w-12 h-12 object-contain">
             <div>
               <h3 class="text-lg font-medium text-gray-900">Uzi Nexus 3</h3>
               <div class="flex gap-1">
@@ -87,11 +87,94 @@
           </div>
           <p class="text-sm text-gray-700 mt-2">Indulge in frozen bliss with our irresistible ice cream delights!</p>
         </div>
+        <div class="review-card">
+          <div class="flex gap-4 items-center">
+            <img src="src/storage/img/profile.svg" class="w-12 h-12 object-contain">
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Uzi Nexus 4</h3>
+              <div class="flex gap-1">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+                <img src="src/storage/img/star.png" class="w-4 h-4">
+              </div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-700 mt-2">Indulge in frozen bliss with our irresistible ice cream delights!</p>
+        </div>
       </div>
     </section>
-    
-    
-
+    <section class="pt-[63px] pr-[64px] pl-[78px] flex flex-col items-end">
+      <div class="bg-[var(--color-1)] w-[213px] h-[54px] rounded-[52px] flex justify-center items-center relative">
+          <h2 class="text-[var(--color-2)] font-[Poppins-Medium] text-[28px] pr-[19px]">Trendy</h2>
+          <img src="storage/img/fire.svg" class="absolute top-[-12px] right-[-2px]">
+      </div>
+      <article class="pt-[45px] flex justify-between flex-wrap gap-x-[52px] gap-y-[59px]">
+          <form action="?" method="GET" class="overflow-hidden w-[690px] h-[324px] pl-[38px] flex gap-[58px] items-center outline-[1px] border-[var(--color-1)] rounded-[24px] backdrop-blur-[8px] hover:outline-none cursor-pointer">
+              <img src="storage/img/product_1.png" class="w-[217px] h-[217px] object-contain">
+              <div class="w-full h-full flex flex-col justify-center gap-[18px]">
+                  <h3 class="text-[var(--color-1)] font-[Poppins-Medium] text-[28px]">Mix Ice cream</h3>
+                  <span class="text-[var(--color-1)] font-[Poppins-Medium] text-[20px]">Order Type:</span>
+                  <div class="w-[309px] flex gap-[31px]">
+                      <input type="submit" name="type-order" value="On Table" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+                      <input type="submit" name="type-order" value="Delivery" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+                  </div>
+                  <div class="w-[309px] flex justify-between">
+                      <label class="text-[var(--color-1)] font-[Poppins-Regular] text-[28px]">Rs. 199/-</label>
+                      <input type="number" name="amount" value="0" class="w-[100px] p-[8px] text-[16px] rounded-[8px] border-[1px] border-[var(--color-1)]">
+                  </div>
+              </div>
+          </form>
+          <!-- Repite el formulario para los demás productos -->
+          <form action="?" method="GET" class="overflow-hidden w-[690px] h-[324px] pl-[38px] flex gap-[58px] items-center outline-[1px] border-[var(--color-1)] rounded-[24px] backdrop-blur-[8px] hover:outline-none cursor-pointer">
+            <img src="storage/img/product_1.png" class="w-[217px] h-[217px] object-contain">
+            <div class="w-full h-full flex flex-col justify-center gap-[18px]">
+                <h3 class="text-[var(--color-1)] font-[Poppins-Medium] text-[28px]">Mix Ice cream</h3>
+                <span class="text-[var(--color-1)] font-[Poppins-Medium] text-[20px]">Order Type:</span>
+                <div class="w-[309px] flex gap-[31px]">
+                    <input type="submit" name="type-order" value="On Table" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+                    <input type="submit" name="type-order" value="Delivery" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+                </div>
+                <div class="w-[309px] flex justify-between">
+                    <label class="text-[var(--color-1)] font-[Poppins-Regular] text-[28px]">Rs. 199/-</label>
+                    <input type="number" name="amount" value="0" class="w-[100px] p-[8px] text-[16px] rounded-[8px] border-[1px] border-[var(--color-1)]">
+                </div>
+            </div>
+        </form>
+        <form action="?" method="GET" class="overflow-hidden w-[690px] h-[324px] pl-[38px] flex gap-[58px] items-center outline-[1px] border-[var(--color-1)] rounded-[24px] backdrop-blur-[8px] hover:outline-none cursor-pointer">
+          <img src="storage/img/product_1.png" class="w-[217px] h-[217px] object-contain">
+          <div class="w-full h-full flex flex-col justify-center gap-[18px]">
+              <h3 class="text-[var(--color-1)] font-[Poppins-Medium] text-[28px]">Mix Ice cream</h3>
+              <span class="text-[var(--color-1)] font-[Poppins-Medium] text-[20px]">Order Type:</span>
+              <div class="w-[309px] flex gap-[31px]">
+                  <input type="submit" name="type-order" value="On Table" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+                  <input type="submit" name="type-order" value="Delivery" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+              </div>
+              <div class="w-[309px] flex justify-between">
+                  <label class="text-[var(--color-1)] font-[Poppins-Regular] text-[28px]">Rs. 199/-</label>
+                  <input type="number" name="amount" value="0" class="w-[100px] p-[8px] text-[16px] rounded-[8px] border-[1px] border-[var(--color-1)]">
+              </div>
+          </div>
+      </form>
+      <form action="?" method="GET" class="overflow-hidden w-[690px] h-[324px] pl-[38px] flex gap-[58px] items-center outline-[1px] border-[var(--color-1)] rounded-[24px] backdrop-blur-[8px] hover:outline-none cursor-pointer">
+        <img src="storage/img/product_1.png" class="w-[217px] h-[217px] object-contain">
+        <div class="w-full h-full flex flex-col justify-center gap-[18px]">
+            <h3 class="text-[var(--color-1)] font-[Poppins-Medium] text-[28px]">Mix Ice cream</h3>
+            <span class="text-[var(--color-1)] font-[Poppins-Medium] text-[20px]">Order Type:</span>
+            <div class="w-[309px] flex gap-[31px]">
+                <input type="submit" name="type-order" value="On Table" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+                <input type="submit" name="type-order" value="Delivery" class="w-[139px] h-[40px] cursor-pointer rounded-[7px] border-none outline-[1px] border-[var(--color-1)] bg-transparent font-[Poppins-Regular] text-[18px] text-[var(--color-1)] flex justify-center items-center">
+            </div>
+            <div class="w-[309px] flex justify-between">
+                <label class="text-[var(--color-1)] font-[Poppins-Regular] text-[28px]">Rs. 199/-</label>
+                <input type="number" name="amount" value="0" class="w-[100px] p-[8px] text-[16px] rounded-[8px] border-[1px] border-[var(--color-1)]">
+            </div>
+        </div>
+    </form>
+      </article>
+  </section>
+  
 </body>
 
 </html>
